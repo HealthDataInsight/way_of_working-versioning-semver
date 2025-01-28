@@ -1,0 +1,11 @@
+/.bundle/
+/.envrc
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+megalinter-reports/
+.rubocop-https---*
