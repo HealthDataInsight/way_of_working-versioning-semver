@@ -23,19 +23,19 @@ module WayOfWorking
   end
 
   module SubCommands
-    # # This reopens the "way_of_working exec" sub command
-    # class Exec
-    #   register(Versioning::Semver::Generators::Exec, 'versioning', 'versioning',
-    # end
+    # This reopens the "way_of_working init" sub command
+    class Init
+      register(Versioning::Semver::Generators::Init, 'versioning', 'versioning',
+               <<~LONGDESC)
+                 Description:
+                     This generator adds Semantic Versioning to your project
 
-    # # This reopens the "way_of_working init" sub command
-    # class Init
-    #   register(Versioning::Semver::Generators::Init, 'versioning', 'versioning',
-    # end
+                 Example:
+                     way_of_working init versioning
 
-    # # This reopens the "way_of_working new" sub command
-    # class New
-    #   register(Versioning::Semver::Generators::New, 'versioning', 'versioning',
-    # end
+                     This will create:
+                         docs/way_of_working/versioning.md
+               LONGDESC
+    end
   end
 end
