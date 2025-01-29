@@ -6,6 +6,7 @@ module WayOfWorking
   module Versioning
     # The namespace for this plugin
     module Semver
+      # This rule checks that for the versioning documentation
       class GithubAuditRule < ::WayOfWorking::Audit::Github::Rules::Base
         source_root WayOfWorking::CodeLinting::Hdi.source_root
 
