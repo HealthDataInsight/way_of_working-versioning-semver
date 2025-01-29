@@ -10,10 +10,8 @@ module WayOfWorking
         source_root WayOfWorking::CodeLinting::Hdi.source_root
 
         def validate
-          # @errors << 'No semver plugin README Badge' unless plugin_badge?
-
           validate_repo_file_contains_source_file(
-            # '.github/example/template.yml',
+            'docs/way_of_working/versioning.md'
           )
         end
 
@@ -40,10 +38,6 @@ module WayOfWorking
             @errors << "#{path} does not match the source template" unless repo_file_contains_source_file?(path)
           end
         end
-
-        # def plugin_badge?
-        #   readme_content.include?("TODO: Markdown for plugin badge")
-        # end
       end
 
       ::WayOfWorking::Audit::Github::Rules::Registry.register(
