@@ -6,9 +6,9 @@ module WayOfWorking
   module Versioning
     # The namespace for this plugin
     module Semver
-      # This rule checks that for the versioning documentation
+      # This rule checks for the versioning documentation
       class GithubAuditRule < ::WayOfWorking::Audit::Github::Rules::Base
-        source_root WayOfWorking::CodeLinting::Hdi.source_root
+        source_root WayOfWorking::Versioning::Semver.source_root
 
         def validate
           validate_repo_file_contains_source_file(
