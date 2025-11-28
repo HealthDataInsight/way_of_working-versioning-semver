@@ -42,7 +42,7 @@ module WayOfWorking
       end
 
       ::WayOfWorking::Audit::Github::Rules::Registry.register(
-        GithubAuditRule, 'TODO: versioning using semver'
+        GithubAuditRule, 'Semantic Versioning'
       )
     end
   end
