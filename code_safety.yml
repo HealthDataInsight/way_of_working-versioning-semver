@@ -1,0 +1,130 @@
+---
+file safety:
+  ".alexrc":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".github/linters/.markdown-link-check.json":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".github/linters/rubocop_defaults.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".github/workflows/inclusive-language.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".github/workflows/main.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".github/workflows/mega-linter.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".gitignore":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".mega-linter.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  ".rubocop":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  CHANGELOG.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  Gemfile:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  Gemfile.lock:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  LICENSE.txt:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  README.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  Rakefile:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  bin/console:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  bin/setup:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  docs/way_of_working/versioning.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  lib/way_of_working/versioning/semver.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  lib/way_of_working/versioning/semver/generators/init.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  lib/way_of_working/versioning/semver/github_audit_rule.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  lib/way_of_working/versioning/semver/paths.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  lib/way_of_working/versioning/semver/plugin.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  lib/way_of_working/versioning/semver/templates/docs/way_of_working/versioning.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  lib/way_of_working/versioning/semver/version.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  test/test_helper.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  test/way_of_working/audit_github_stub_classes.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  test/way_of_working/versioning/semver/generators/init_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  test/way_of_working/versioning/semver/github_audit_rule_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
+  test/way_of_working/versioning/semver/zeitwerk_loader_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  test/way_of_working/versioning/semver_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 0a9453ef71b1926d6be0105d3814f99e9027b55f
+  way_of_working-versioning-semver.gemspec:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: ffc45545cd82db554cbee17125f2ed5c2c70ea2e
