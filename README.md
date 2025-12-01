@@ -5,29 +5,31 @@
 <!-- Way of Working: Additional Badge Holder Start -->
 <!-- Way of Working: Badge Holder End -->
 
-TODO: Delete this and the text below, and describe your gem
+[![Gem Version](https://badge.fury.io/rb/way_of_working-versioning-semver.svg)](https://badge.fury.io/rb/way_of_working-versioning-semver)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/way_of_working-versioning-semver`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework that uses [Semantic Versioning][semver] version 2.0.0 to define the versioning standard for communicating software changes and managing releases across projects.
 
 ## Installation
-
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
 
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+bundle add way_of_working-versioning-semver
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
 ```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem install way_of_working-versioning-semver
 ```
 
 ## Usage
 
-TODO: Write usage instructions here
+To add a [Semantic Versioning][semver] documentation to your project, use the following at the command line:
+
+```bash
+way_of_working init versioning
+```
 
 ## Development
 
@@ -37,7 +39,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at <https://github.com/HealthDataInsight/way_of_working-versioning-semver>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/HealthDataInsight/way_of_working-versioning-semver/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at [this repository][repo]. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct][coc].
 
 ## License
 
@@ -45,4 +47,8 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the way_of_working-versioning-semver project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/HealthDataInsight/way_of_working-versioning-semver/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the way_of_working-versioning-semver project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct][coc].
+
+[semver]: https://semver.org
+[repo]: https://github.com/HealthDataInsight/way_of_working-versioning-semver
+[coc]: https://github.com/HealthDataInsight/way_of_working-versioning-semver/blob/main/CODE_OF_CONDUCT.md
